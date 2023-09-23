@@ -28,6 +28,22 @@ body {
     font-family: 'TT Hoves Pro', sans-serif;
 }
 
+@media (min-width: 1024px) {
+    .yellow-background {
+    position: absolute;
+    top: -40px;
+    left: -2%;
+    width: 102%;
+    height: 130px;
+    background-color: #FFF145;
+    box-shadow: 0px -4px 8px 0px rgba(189, 173, 0, 0.50) inset;
+    transform: rotate(-1.5deg);
+    z-index: -1;
+    }
+
+    
+}
+
 .jiya {
     width: 400px;
     height: 492px;
