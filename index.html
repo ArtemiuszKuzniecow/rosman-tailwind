@@ -10,67 +10,70 @@
 </head>
 
 <body>
-    <div class="yellow_background"></div>
-    <div class="content">
+    <div>
         <!-- HEADER -->
-        <div class="flex justify-between p-[24px] border">
+        <div class="flex justify-between lg:p-[24px] max-lg:p-[12px]">
             <div class="flex">
-                <div class="mr-[58px]">
-                    <img src="./images/Group.svg" alt="">
+                <div class="mr-[58px] max-lg:hidden">
+                    <img src="./images/Group.svg" alt="logo">
                 </div>
-                <div>
-                    <div class="flex">
-                        <div class="flex gap-x-2 py-2.5 px-3 border border-black">
-                            <div><img src="./images/Frame.svg" alt=""></div>
-                            <span class="text-[17px]">Каталог</span>
+                <div class="lg:hidden">
+                    <img src="./images/GroupMobile.svg" alt="logo-mobile">
+                </div>
+                <div class="flex max-lg:hidden">
+                    <div class="flex gap-x-2 py-2.5 px-3 border border-black">
+                        <img src="./images/Frame.svg" alt="">
+                        <span class="text-[17px]">Каталог</span>
+                    </div>
+                    <div class="flex gap-x-8 items-center">
+                        <span class="text-[13px] pl-6">Бренды</span>
+                        <span class="text-[13px]">Новости</span>
+                        <div class="flex">
+                            <span class="text-[13px]">РОСМЭН</span>
+                            <img src="./images/ArrowDown.svg" alt="">
                         </div>
-                        <div class="flex gap-x-8 items-center">
-                            <div><span class="text-[13px] pl-6">Бренды</span></div>
-                            <div><span class="text-[13px]">Новости</span></div>
-                            <div class="flex">
-                                <span class="text-[13px]">РОСМЭН</span>
-                                <img src="./images/ArrowDown.svg" alt="">
-                            </div>
-                            <div><span class="text-[13px]">Партнерам</span></div>
-                        </div>
+                        <span class="text-[13px]">Партнерам</span>
                     </div>
                 </div>
             </div>
-            <div class="flex items-center">
-                <div class="flex">
-                    <div><img src="./images/Search.svg" alt=""></div>
-                    <div><img src="./images/Mic.svg" alt=""></div>
-                    <div><img src="./images/Heart.svg" alt=""></div>
+            <div class="flex max-lg:flex-row-reverse items-center">
+                <div class="flex lg:mr-[24px]">
+                    <img src="./images/Search.svg" alt="search" class="p-[10px]">
+                    <img src="./images/Mic.svg" alt="microphone" class="p-[10px] max-lg:hidden">
+                    <img src="./images/Heart.svg" alt="favourite" class="p-[10px]">
                 </div>
-                <div>RU/ENG</div>
+                <div class="max-lg:mr-[16px]">
+                RU/<span class="opacity-50">ENG</span></div>
             </div>
         </div>
 
         <!-- MAIN DESCRIPTION -->
-        <div>
+        <div class="flex max-lg:flex-col-reverse max-lg:p-[12px] justify-center max-lg:gap-[31px] lg:gap-[48px] lg:ml-[112px] lg:mr-[112px] lg:mt-[92px] max-lg:mt-[31px] max-lg:flex-wrap">
             <!-- IMAGE -->
-            <div>
-                <img src="./images/Jiya.png" alt="">
-            </div>
+            <img src="./images/Jiya.png" alt="Jiya" class="jiya">
             <!-- DESCRIPTION -->
             <div>
                 <!-- Header & Pagination -->
-                <div>
-                    <h1>Джия</h1>
-                    <span>
-                        1 из 32
-                    </span>
-                    <div>
-                        <img src="./images/ArrowLeft.svg" alt=""><img src="./images/ArrowRight.svg" alt="">
+                <div class="flex justify-between mb-[24px]">
+                    <h1 class="jiya-name-header">Джия</h1>
+                    <div class="flex items-center gap-[32px]">
+                        <span class="pagination">
+                            1 из 32
+                        </span>
+                        <div class="flex gap-[16px]">
+                            <img src="./images/ArrowLeft.svg" alt=""><img src="./images/ArrowRight.svg" alt="">
+                        </div>
                     </div>
                 </div>
                 <!-- Description itself -->
-                <div>
-                    <p>Животное в опасности? Команда Петроникс, вперед, на помощь!Игрушки Петроникс – персонажи
+                <div class="flex flex-col gap-[16px]">
+                    <p class="description">Животное в опасности? Команда Петроникс, вперед, на помощь!Игрушки Петроникс
+                        – персонажи
                         одноименного
                         мультсериала и их
                         робо-питомцы! Отправляйся на миссии по спасению животных вместе с твоими любимыми героями!</p>
-                    <p>Джия – веселая и отважная участница команды.Фигурка подвижна, за счет чего ты сможешь придать ей
+                    <p class="description">Джия – веселая и отважная участница команды.Фигурка подвижна, за счет чего ты
+                        сможешь придать ей
                         нужную позу. Вращай
                         головой, двигай руками, сгибай ноги и колени! В набор также входит Петроникс-рюкзак, его можно
                         снять
@@ -78,89 +81,105 @@
                         любой момент.</p>
                 </div>
                 <!-- Buttons -->
-                <div>
-                    <button>Смотреть</button>
-                    <button>На сайт</button>
+                <div class="flex max-lg:justify-between max-lg:my-[24px] lg:my-[32px] gap-[24px]">
+                    <button class="button-black">Смотреть</button>
+                    <button class="button-white">На сайт</button>
                 </div>
                 <!-- Social network -->
                 <div>
-                    <span>Мы в соцсетях</span>
-                    <img src="./images/social/VK.svg" alt="">
-                    <img src="./images/social/TT.svg" alt="">
-                    <img src="./images/social/FB.svg" alt="">
-                    <img src="./images/social/Heart.svg" alt="">
-                    <img src="./images/social/YT.svg" alt="">
-                    <img src="./images/social/LINK.svg" alt="">
-                    <img src="./images/social/TW.svg" alt="">
+                    <span class="network-header">Мы в соцсетях</span>
+                    <div class="flex mt-[16px] gap-[20px]">
+                        <img src="./images/social/VK.svg" alt="">
+                        <img src="./images/social/TT.svg" alt="">
+                        <img src="./images/social/FB.svg" alt="">
+                        <img src="./images/social/Heart.svg" alt="">
+                        <img src="./images/social/YT.svg" alt="">
+                        <img src="./images/social/LINK.svg" alt="">
+                        <img src="./images/social/TW.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
         <!-- NEWS -->
-        <div>
+        <div class="max-lg:mt-[48px] lg:mt-[64px] news-container">
             <!-- NEWS HEADER -->
-            <div>
-                <h1>Новости</h1>
+            <div class="flex justify-between">
                 <div>
-                    <a href="#">Смотреть все</a>
-                    <img src="./images/ArrowLeft.svg" alt=""><img src="./images/ArrowRight.svg" alt="">
+                <h2 class="news-header">Новости</h1>
+                </div>
+                <div class="flex max-lg:flex-col-reverse gap-[24px] items-center">
+                    <a href="#" class="watch-all max-lg:hidden">Смотреть все</a>
+                    <div class="flex max-lg:gap-[8px]"> 
+                        <img src="./images/ArrowLeft.svg" alt=""><img src="./images/ArrowRight.svg" alt="">
+                    </div>
                 </div>
             </div>
+            <a href="#" class="watch-all lg:hidden">Смотреть все</a>
             <!-- NEWS BLOCKS -->
-            <div>
+            <!-- We need to use JavaScript to scroll only this block -->
+            <div class="flex mt-[40px] ml-auto mr-auto mb-[64px] gap-[16px] w-max">
                 <!-- 1 -->
-                <div>
+                <div class="news-block">
                     <img src="./images/Petronix.png" alt="">
-                    <div>
-                        <span>статьи</span>
-                        <span>•</span>
-                        <span>30.11.2022</span>
-                    </div>
-                    <div>
-                        <h3>
-                            Эпик Лончер: Так блейд Инфинити Надо еще не баттлил!
-                        </h3>
-                        <p>
-                            Пусковые установки Эпик Лончер подарят совершенно новый опыт запуска волчка на арену даже
-                            самому
-                            умелому Игроку!
-                        </p>
+                    <div class="p-[12px]">
+                        <div>
+                            <span class="news-block-article">статьи</span>
+                            <span class="news-block-article">•</span>
+                            <span class="news-block-date">30.11.2022</span>
+                        </div>
+                        <div>
+                            <h3 class="news-block-header-inside">
+                                Эпик Лончер: Так блейд Инфинити Надо еще не баттлил!
+                            </h3>
+                            <p class="news-block-text-inside">
+                                Пусковые установки Эпик Лончер подарят совершенно новый опыт запуска волчка на арену
+                                даже
+                                самому
+                                умелому Игроку!
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!-- 2 -->
-                <div>
+                <div class="news-block">
                     <img src="./images/Petronix2.png" alt="">
-                    <div>
-                        <span>статьи</span>
-                        <span>•</span>
-                        <span>30.11.2022</span>
-                    </div>
-                    <div>
-                        <h3>
-                            Стань Мастером Высшей Лиги с блейдами СТАКИНГ!
-                        </h3>
-                        <p>
-                            Переходи на новый уровень блейд-баттла и докажи, что достоин звания Мастера Высшей лиги!
-                        </p>
+                    <div class="p-[12px]">
+                        <div>
+                            <span class="news-block-article">статьи</span>
+                            <span class="news-block-article">•</span>
+                            <span class="news-block-date">30.11.2022</span>
+                        </div>
+                        <div>
+                            <h3 class="news-block-header-inside">
+                                Стань Мастером Высшей Лиги с блейдами СТАКИНГ!
+                            </h3>
+                            <p class="news-block-text-inside">
+                                Переходи на новый уровень блейд-баттла и докажи, что достоин звания Мастера Высшей лиги!
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!-- 3 -->
-                <div>
+                <div class="news-block">
                     <img src="./images/Petronix3.png" alt="">
-                    <div>
-                        <span>статьи</span>
-                        <span>•</span>
-                        <span>30.11.2022</span>
-                    </div>
-                    <div>
-                        <h3>
-                            Новый закон накладывает вето на полуночный
-                        </h3>
-                        <p>
-                            Противоположная точка зрения подразумевает, что явные признаки победы институционализации
-                            лишь
-                            добавляют фракционных
-                            разногласий и объявлены нарушающими общечеловеческие нормы этики и морали.
-                        </p>
+                    <div class="p-[12px]">
+                        <div>
+                            <span class="news-block-article">статьи</span>
+                            <span class="news-block-article">•</span>
+                            <span class="news-block-date">30.11.2022</span>
+                        </div>
+                        <div>
+                            <h3 class="news-block-header-inside">
+                                Новый закон накладывает вето на полуночный
+                            </h3>
+                            <p class="news-block-text-inside">
+                                Противоположная точка зрения подразумевает, что явные признаки победы
+                                институционализации
+                                лишь
+                                добавляют фракционных
+                                разногласий и объявлены нарушающими общечеловеческие нормы этики и морали.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
