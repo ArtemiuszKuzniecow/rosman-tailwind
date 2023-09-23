@@ -1,0 +1,17 @@
+.yellow_background {
+    position: absolute;
+    top: -232px;
+    left: 63px;
+    width: 1518px;
+    height: 884px;
+    transform: rotate(-4deg);
+    background: #FFF145;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    border: 1px solid red;
+    width: 1280px;
+    z-index: 2;
+}

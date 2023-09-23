@@ -5,50 +5,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Rosman</title>
 </head>
 
 <body>
-    <!-- HEADER -->
-    <div class="flex justify-between p-6 border">
-        <div class="flex">
-            <div>
-                <img src="./Group.svg" alt="">
-            </div>
-            <div>
-                <div class="flex"> 
-                    <div class="flex gap-x-2 py-2.5 px-3 border border-black">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20"
-                                fill="none">
-                                <path
-                                    d="M3 2.5H9.66667V9.16667H3V2.5ZM3 10.8333H9.66667V17.5H3V10.8333ZM11.3333 2.5H18V9.16667H11.3333V2.5ZM11.3333 10.8333H18V17.5H11.3333V10.8333ZM13 4.16667V7.5H16.3333V4.16667H13ZM13 12.5V15.8333H16.3333V12.5H13ZM4.66667 4.16667V7.5H8V4.16667H4.66667ZM4.66667 12.5V15.8333H8V12.5H4.66667Z"
-                                    fill="black" />
-                            </svg></div>
-                        <span class="text-[17px]">Каталог</span>
-                    </div>
-                    <div class="flex gap-x-8 items-center">
-                        <div><span class="text-[13px] pl-6">Бренды</span></div>
-                        <div><span class="text-[13px]">Новости</span></div>
-                        <div class="flex">
-                            <span class="text-[13px]">РОСМЭН</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16"
-                                fill="none">
-                                <path d="M4.5 7L8.5 11L12.5 7" stroke="black" stroke-width="1.5" />
-                            </svg>
+    <div class="yellow_background"></div>
+    <div class="content">
+        <!-- HEADER -->
+        <div class="flex justify-between p-[24px] border">
+            <div class="flex">
+                <div class="mr-[58px]">
+                    <img src="./images/Group.svg" alt="">
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="flex gap-x-2 py-2.5 px-3 border border-black">
+                            <div><img src="./images/Frame.svg" alt=""></div>
+                            <span class="text-[17px]">Каталог</span>
                         </div>
-                        <div><span class="text-[13px]">Партнерам</span></div>
+                        <div class="flex gap-x-8 items-center">
+                            <div><span class="text-[13px] pl-6">Бренды</span></div>
+                            <div><span class="text-[13px]">Новости</span></div>
+                            <div class="flex">
+                                <span class="text-[13px]">РОСМЭН</span>
+                                <img src="./images/ArrowDown.svg" alt="">
+                            </div>
+                            <div><span class="text-[13px]">Партнерам</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex items-center">
-            <div class="flex">
-                <div>icon</div>
-                <div>icon</div>
-                <div>icon</div>
+            <div class="flex items-center">
+                <div class="flex">
+                    <div><img src="./images/Search.svg" alt=""></div>
+                    <div><img src="./images/Mic.svg" alt=""></div>
+                    <div><img src="./images/Heart.svg" alt=""></div>
+                </div>
+                <div>RU/ENG</div>
             </div>
-            <div>RU/ENG</div>
+        </div>
+
+        <!-- MAIN DESCRIPTION -->
+        <div>
+            <!-- IMAGE -->
+            <div>
+                <img src="./images/Jiya.png" alt="">
+            </div>
+            <!-- DESCRIPTION -->
+            <div>
+                <!-- Header & Pagination -->
+                <div>
+                    <h1>Джия</h1>
+                    <span>
+                        1 из 32
+                    </span>
+                    <div>
+                        <img src="./images/ArrowLeft.svg" alt=""><img src="./images/ArrowRight.svg" alt="">
+                    </div>
+                </div>
+                <!-- Description itself -->
+                <div>
+                    <p>Животное в опасности? Команда Петроникс, вперед, на помощь!Игрушки Петроникс – персонажи
+                        одноименного
+                        мультсериала и их
+                        робо-питомцы! Отправляйся на миссии по спасению животных вместе с твоими любимыми героями!</p>
+                    <p>Джия – веселая и отважная участница команды.Фигурка подвижна, за счет чего ты сможешь придать ей
+                        нужную позу. Вращай
+                        головой, двигай руками, сгибай ноги и колени! В набор также входит Петроникс-рюкзак, его можно
+                        снять
+                        и надеть обратно в
+                        любой момент.</p>
+                </div>
+                <!-- Buttons -->
+                <div>
+                    <button>Смотреть</button>
+                    <button>На сайт</button>
+                </div>
+                <!-- Social network -->
+                <div>
+                    <span>Мы в соцсетях</span>
+                    <img src="./images/social/VK.svg" alt="">
+                    <img src="./images/social/TT.svg" alt="">
+                    <img src="./images/social/FB.svg" alt="">
+                    <img src="./images/social/Heart.svg" alt="">
+                    <img src="./images/social/YT.svg" alt="">
+                    <img src="./images/social/LINK.svg" alt="">
+                    <img src="./images/social/TW.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- NEWS -->
+        <div>
+            <!-- NEWS HEADER -->
+            <div>
+                <h1>Новости</h1>
+                <div>
+                    <a href="#">Смотреть все</a>
+                    <img src="./images/ArrowLeft.svg" alt=""><img src="./images/ArrowRight.svg" alt="">
+                </div>
+            </div>
+            <!-- NEWS BLOCKS -->
+            <div>
+                <!-- 1 -->
+                <div>
+                    <img src="./images/Petronix.png" alt="">
+                    <div>
+                        <span>статьи</span>
+                        <span>•</span>
+                        <span>30.11.2022</span>
+                    </div>
+                    <div>
+                        <h3>
+                            Эпик Лончер: Так блейд Инфинити Надо еще не баттлил!
+                        </h3>
+                        <p>
+                            Пусковые установки Эпик Лончер подарят совершенно новый опыт запуска волчка на арену даже
+                            самому
+                            умелому Игроку!
+                        </p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div>
+                    <img src="./images/Petronix2.png" alt="">
+                    <div>
+                        <span>статьи</span>
+                        <span>•</span>
+                        <span>30.11.2022</span>
+                    </div>
+                    <div>
+                        <h3>
+                            Стань Мастером Высшей Лиги с блейдами СТАКИНГ!
+                        </h3>
+                        <p>
+                            Переходи на новый уровень блейд-баттла и докажи, что достоин звания Мастера Высшей лиги!
+                        </p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div>
+                    <img src="./images/Petronix3.png" alt="">
+                    <div>
+                        <span>статьи</span>
+                        <span>•</span>
+                        <span>30.11.2022</span>
+                    </div>
+                    <div>
+                        <h3>
+                            Новый закон накладывает вето на полуночный
+                        </h3>
+                        <p>
+                            Противоположная точка зрения подразумевает, что явные признаки победы институционализации
+                            лишь
+                            добавляют фракционных
+                            разногласий и объявлены нарушающими общечеловеческие нормы этики и морали.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
