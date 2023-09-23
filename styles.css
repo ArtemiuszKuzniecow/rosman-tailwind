@@ -121,7 +121,7 @@ body {
         color: #000;
         font-size: 24px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 550;
         line-height: 28px;
     }
 }
@@ -131,7 +131,7 @@ body {
         color: #000;
         font-size: 34px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 550;
         line-height: 40px;
     }
 }
@@ -165,7 +165,7 @@ body {
     color: #000;
     font-size: 13px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
     line-height: 18px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -183,7 +183,7 @@ body {
     color: #000;
     font-size: 15px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
     line-height: 20px;
     padding: 12px 0;
 }
