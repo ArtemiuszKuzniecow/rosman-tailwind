@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'TT Hoves Pro';
+    src:
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Bold\ Outline\ Trial.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Bold\ Outline\ Trial\ Italic.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ Black.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ Black\ Italic.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ Bold.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ Bold\ Italic.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ DemiBold.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ DemiBold\ Italic.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ ExtraBold.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ ExtraBold\ Italic.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ ExtraLight.ttf') format('ttf'),
+        url('./TT-Hoves-Pro-Trial-Font/TT-Hoves-Pro/TT\ Hoves\ Pro\ Trial\ ExtraLight\ Italic.ttf') format('ttf');
+}
+
+body {
+    font-family: 'TT Hoves Pro', sans-serif;
+}
+
+@media (min-width: 1024px) {
+    .yellow-background {
+    position: absolute;
+    top: -40px;
+    left: -2%;
+    width: 102%;
+    height: 130px;
+    background-color: #FFF145;
+    box-shadow: 0px -4px 8px 0px rgba(189, 173, 0, 0.50) inset;
+    transform: rotate(-1.5deg);
+    z-index: -1;
+    }
+
+    
+}
+
+.jiya {
+    width: 400px;
+    height: 492px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1024px) {
+    .jiya-name-header {
+        color: #000;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .jiya-name-header {
+        font-size: 43px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+    }
+}
+
+.pagination {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.description {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.button-black {
+    border: 1px solid #000;
+    background-color: #000;
+    color: white;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-white {
+    border: 1px solid #000;
+    color: black;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.network-header {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@media (max-width: 1024px) {
+    .news-header {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .news-header {
+        color: #000;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: 40px;
+    }
+}
+
+
+.news-container {
+    padding: 0 24px;
+}
+
+.watch-all {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.news-block {
+    display: flex;
+    width: 400px;
+    ;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.news-block-article {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.news-block-date {
+    color: #808080;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.news-block-header-inside {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 20px;
+    padding: 12px 0;
+}
+
+.news-block-text-inside {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
